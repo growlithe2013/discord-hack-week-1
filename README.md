@@ -12,3 +12,5 @@ PLEASE KEEP YOUR BOT TOKEN PRIVATE
 if this bot is edited or altered in any way, please open source the bot and give credits to me where due.
 
 simplified commands to fact, joke, about me, and about bot only
+
+https://discord.gg/px2duW4 <-- test server for the bot
