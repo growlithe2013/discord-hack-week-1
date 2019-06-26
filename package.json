@@ -1,0 +1,14 @@
+{
+  "name": "discord-bot",
+  "version": "0.0.1",
+  "description": "my bot for discord hack challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eeveelutionary",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
