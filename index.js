@@ -1,6 +1,6 @@
 //importing stuff, like the start a;ways is
 const Discord = require('discord.js');
-const { prefix, token , numOfFacts, numOfJokes} = require('../config.json');
+const { prefix, token , numOfFacts, numOfJokes} = require('./config.json');
 const client = new Discord.Client();
 const { facts, arms, me } = require('./jokes.json');
 
