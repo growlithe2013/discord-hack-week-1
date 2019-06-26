@@ -1,4 +1,6 @@
 {
     "prefix":"e!",
-    "token":"use your own"
+    "token":"use your own",
+    "numOfJokes" : "73",
+    "numOfFacts" : "79"
 }

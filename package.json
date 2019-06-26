@@ -1,6 +1,6 @@
 {
   "name": "discord-bot",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "my bot for discord hack challenge",
   "main": "index.js",
   "scripts": {
