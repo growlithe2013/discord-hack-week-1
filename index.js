@@ -26,7 +26,7 @@ function sky(usernamee){
 
 
     //borrowed script to get username of poster, used for the mini RP
-    user = message.member;
+    /*user = message.member;
     user = user.toString();
     if (user.includes("!")) {
         user = user.split("!")[1].split(">")[0];
@@ -35,7 +35,7 @@ function sky(usernamee){
     }
     username = client.users.get(user).username
 
-    world_dict[username];
+    world_dict[username];*/
 
             //message.channel.send("Me"); <<< you shouldn't see this, what are you doing here?
             //the actual responces, where it checks what exact joke bank to pull from
@@ -48,7 +48,7 @@ function sky(usernamee){
             if(message.content.startsWith(`eeveeBot`)){message.channel.send("Thanks for the mention!");}
             if(message.content.startsWith(`Eeveebot`)){message.channel.send("Thanks for the mention!");}
             if(message.content.startsWith(`eeveebot`)){message.channel.send("Thanks for the mention!");}
-            if(message.content.startsWith(`${prefix}rp`)){
+          /*  if(message.content.startsWith(`${prefix}rp`)){
                 //ha. e rp.. unintentional dirty joke.
                 if(world_dict[username]==null || world_dict[username]==0){
                     world_dict[username] = 1;
@@ -75,7 +75,8 @@ function sky(usernamee){
                 }
             
                 }
-            }
+            }*/
+            if(message.content.statsWith(`${prefix}number`)){message.channel.send(Math.floor(Math.random()*10))}
             //if(message.content.startsWith(`@EeveeBot`)){message.channel.send("Thanks for the mention!");}   
     
 )
